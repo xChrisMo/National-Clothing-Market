@@ -23,8 +23,12 @@ This project focuses on leveraging data analytics to generate insights for targe
 * For the Purchase List table, unpivoting all asides the ID column was done to standardize the table
 
 ## Visuals
+Data Schema 
+![Data Schema](images/dSchema.png)
+
 1. Home
 ![HOME](images/HomePage.jpeg)
+
 2. Predicted Customer Income Summary
 ![Predicted Income Summary](images/CustomerIncomeSummary.jpeg)
  

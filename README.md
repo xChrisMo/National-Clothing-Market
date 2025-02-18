@@ -22,21 +22,39 @@ This project focuses on leveraging data analytics to generate insights for targe
 * Used Power Query to split the columns under the Product Inventory table using a delimiter. More transformations such as changing data type, extracting dates and merging columns were used.
 * For the Purchase List table, unpivoting all asides the ID column was done to standardize the table
 
-## Visuals
-Data Schema 
+## Analysis and Visualisation
+The data schema here shows all the connections as needed
 ![Data Schema](images/dSchema.png)
+
+The report consists of the following pages:
 
 1. Home
 ![HOME](images/HomePage.jpeg)
 
 2. Predicted Customer Income Summary
 ![Predicted Income Summary](images/CustomerIncomeSummary.jpeg)
+
+* Using each state’s average Income and each state’s average Last 6 Months of Purchase, a simple Regression formula helped predict each customer’s income.
+
+* The scatter plot shows a strong positive correlation of .78 between the Average Income and the Average Last 6 Months of Purchases.
+
+* The linear regression formula is Y = .01X + -722.14.
+where
+* X represents the Predicted Income
+* Y represents the Last 6 Months of Purchases
  
-3. Products Summary
+4. Products Summary
 ![Products Summary](images/ProductSummary.jpeg)
 
-4. Customer Summary
+In this page, 
+* There is a strong negative correlation of .69 between the Customer Rating and the Return Rate.
+* A few of the best products with both highest Customer Rating and also, lowest Return Rate are 1. The Chronograph Watch, 2. Long Dress, and 3. Leather Sneakers. All of these products are considered to be of medium cost as compared to the other products sold.
+* Winter gloves have the highest return rate and one of the lowest customer ratings.
+* Leather Bags are the most expensive product offered and they also have pretty high return rate and low customer rating. So also, we have a very large inventory value for these same Leather Bags. 
+
+
+6. Customer Summary
 ![Customer Summary](images/CustomerSummary.jpeg)
    
-5. AdHoc Analysis
+7. AdHoc Analysis
 ![AdHoc Summary](images/AdHoc%20Analysis.jpeg)

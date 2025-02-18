@@ -55,6 +55,13 @@ In this page,
 
 6. Customer Summary
 ![Customer Summary](images/CustomerSummary.jpeg)
-   
+
+Here, we discovered these important points:
+* We predict customer `Jon Little` to have the highest income of $488,742.15.
+* Customers tend to spend more towards the end of the year (Ember months).
+* Most of our customers are from California, Florida and Texas.
+* Most of our customers fall under the age range of 40-49 year olds.
+
+ 
 7. AdHoc Analysis
 ![AdHoc Summary](images/AdHoc%20Analysis.jpeg)
